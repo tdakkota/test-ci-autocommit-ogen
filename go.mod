@@ -3,7 +3,7 @@ module github.com/tdakkota/test-ci-autocommit-ogen
 go 1.19
 
 require (
-	github.com/ogen-go/ogen v0.61.0
+	github.com/ogen-go/ogen v0.60.1
 	go.uber.org/zap v1.24.0
 )
 
@@ -13,7 +13,7 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-faster/errors v0.6.1 // indirect
 	github.com/go-faster/jx v1.0.0 // indirect
-	github.com/go-faster/yaml v0.4.3 // indirect
+	github.com/go-faster/yamlx v0.4.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.18 // indirect

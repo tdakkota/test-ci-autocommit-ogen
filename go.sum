@@ -10,8 +10,8 @@ github.com/go-faster/errors v0.6.1 h1:nNIPOBkprlKzkThvS/0YaX8Zs9KewLCOSFQS5BU06F
 github.com/go-faster/errors v0.6.1/go.mod h1:5MGV2/2T9yvlrbhe9pD9LO5Z/2zCSq2T8j+Jpi2LAyY=
 github.com/go-faster/jx v1.0.0 h1:HE+ms2e6ZGkZ6u13t8u+onBinrPvIPI+0hWXGELm74g=
 github.com/go-faster/jx v1.0.0/go.mod h1:zm8SlkwK+H0TYNKYtVJ/7cWFS7soJBQWhcPctKyYL/4=
-github.com/go-faster/yaml v0.4.3 h1:j7blP1oLA/2aBQEaWUibtrNNIayr49VGHGpR076NB8k=
-github.com/go-faster/yaml v0.4.3/go.mod h1:K2zdBSnXHZ6/rz8iQ1yxgY+R+ytdlZPzdro0NB8EYxw=
+github.com/go-faster/yamlx v0.4.1 h1:00RQkZopoLDF1SgBDJVHuN6epTOK7T0TkN427vbvEBk=
+github.com/go-faster/yamlx v0.4.1/go.mod h1:QXr/i3Z00jRhskgyWkoGsEdseebd/ZbZEpGS6DJv8oo=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/kr/pretty v0.2.1 h1:Fmg33tUaq4/8ym9TJN1x7sLJnHVwhP33CNkpYV/7rwI=
@@ -21,8 +21,8 @@ github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovk
 github.com/mattn/go-isatty v0.0.16/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
 github.com/mattn/go-isatty v0.0.18 h1:DOKFKCQ7FNG2L1rbrmstDN4QVRdS89Nkh85u68Uwp98=
 github.com/mattn/go-isatty v0.0.18/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
-github.com/ogen-go/ogen v0.61.0 h1:U3hkx9ydCL2tb0055ut0o8hWaEOWCs2+rG2rpwCMGPM=
-github.com/ogen-go/ogen v0.61.0/go.mod h1:Rn43MIqVcT8utwLi45lv7e/a4kPRk+klLsWsgB1z9GQ=
+github.com/ogen-go/ogen v0.60.1 h1:yOt0i6NcH7jM3rBi9nnv5VsGUQRw4ACUMsiJojnqrAM=
+github.com/ogen-go/ogen v0.60.1/go.mod h1:tcwLpHe4vyk9xtbTMe3yu3Qtcbz8VjrpBz9LzsdwWvQ=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/segmentio/asm v1.2.0 h1:9BQrFxC+YOHJlTlHGkTrFWf59nbL3XnCoFLTwDCI7ys=
