@@ -49,6 +49,7 @@ jobs:
         # See https://docs.github.com/en/code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates#allowing-dependabot-to-rebase-and-force-push-over-extra-commits
         # that is why we add `[dependabot skip]` to commit.
       - name: Commit and push
+        if: github.event.pull_request.user.login == 'dependabot[bot]' && failure() && steps.git-diff.outcome != 'success'
         run: |
           git add go.mod go.sum
           git add examples/go.mod examples/go.sum
