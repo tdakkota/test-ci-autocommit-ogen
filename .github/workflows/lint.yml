@@ -52,10 +52,8 @@ jobs:
     if: ${{ always() && github.event.pull_request.user.login == 'dependabot[bot]' && needs.check-mod.result == 'failure' && needs.check-mod.git-diff.outcome != 'success' }}
     uses: tdakkota/test-ci-autocommit-ogen/.github/workflows/tidy-autocommit.yml@main
     needs: [check-mod]
-    permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
-      contents: write
+    secrets:
+      APP_TOKEN: ${{ secrets.APP_TOKEN }}
     with:
       repository: ${{ github.event.pull_request.head.repo.full_name }}
       ref: ${{ github.event.pull_request.head.ref }}
