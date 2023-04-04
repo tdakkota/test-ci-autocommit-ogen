@@ -30,7 +30,7 @@ func main() {
 		panic(err)
 	}
 
-	g, err := gen.NewGenerator(spec, gen.Options{})
+	g, err := gen.NewGenerator(spec, gen.Options{Logger: logger.Named("gen")})
 	if err != nil {
 		panic(err)
 	}
