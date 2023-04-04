@@ -2,9 +2,6 @@ name: Autocommit `go mod tidy`
 
 on:
   workflow_call:
-    secrets:
-      TOKEN:
-        required: true
     inputs:
       repository:
         type: string
@@ -22,7 +19,6 @@ jobs:
         with:
           repository: ${{ inputs.repository }}
           ref: ${{ inputs.ref }}
-          token: ${{ secrets.TOKEN }}
 
       - name: Install Go
         uses: actions/setup-go@v4
